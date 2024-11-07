@@ -1,0 +1,67 @@
+.crewmate-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+  }
+  
+  .crewmate-card {
+    background-color: white; /* Set card background color to white */
+    color: black; /* Set text color to black */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .crewmate-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .crewmate-card h1 {
+    margin-bottom: 10px;
+  }
+  
+  .crewmate-card p {
+    margin-bottom: 25px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+  
+  }
+  
+  .update-button, .delete-button {
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1; /* Make buttons take equal space */
+    background-color: #007bff;
+    margin: 0 5px; /* Add margin between buttons */
+    max-width: 45%; 
+  }
+  
+  
+  
+  .update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }

@@ -1,0 +1,63 @@
+.create-crewmate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 100px;
+    border-radius: 5px;
+    color: red;
+    height: 160vh;
+
+  }
+  
+  .create-crewmate form {
+    display: flex;
+    flex-direction: column; /* Align cards horizontally */
+    justify-content: space-around; /* Distribute space around the cards */
+    width: 100%; /* Ensure the form takes the full width */
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: row; /* Align cards horizontally */
+    justify-content: space-around; /* Distribute space around the cards */
+    width: 100%; /* Ensure the container takes the full width */
+  }
+  
+  
+  .card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .long-card {
+    width: 600px;
+  }
+  
+  .color-options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
