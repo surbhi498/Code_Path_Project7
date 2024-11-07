@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Web Development Project 7 - *CREW_APP*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: **Surbhi Sharma**
 
-## Available Scripts
 
-In the project directory, you can run:
+# Crewmate Management Web App
 
-### `npm start`
+This web app allows users to create, view, update, and delete crewmates. Users can name the crewmate, set their attributes, and view a summary page of all added crewmates. Each crewmate has a unique link to an info page about them, where users can update or delete the crewmate.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Create Crewmate**: Users can add new crewmates by providing a name, speed, and color.
+- **View Crewmates**: Users can view a gallery of all added crewmates.
+- **Crewmate Details**: Each crewmate has a unique info page displaying their details.
+- **Update Crewmate**: Users can update the details of a crewmate from their info page.
+- **Delete Crewmate**: Users can delete a crewmate from their info page.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Frontend library for building user interfaces.
+- **Supabase**: Backend as a service for database management.
+- **React Router**: Library for routing in React applications.
+- **CSS**: Styling the application.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Time spent: **3** hours spent in total
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Required Features
 
-### `npm run eject`
+The following **required** functionality is completed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] **A create form allows users to add new cremates**
+- [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
+- [x] **The site displays a summary page of all the user's added crewmates**
+- [x] **A previously created crewmate can be updated from the crewmate list**
+- [x] **A previously created crewmate can be deleted from the crewmate list**
+- [x] **Each crewmate has a direct, unique link to an info page about them**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The following **optional** features are implemented:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] A crewmate can be given a category upon creation which restricts their attributes
+- [ ] The site displays summary statistics about a user's crew on their crew page 
+- [ ] The site displays a custom "success" metric about a user's crew which changes the look of the crewmate list
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following **additional** features are implemented:
 
-## Learn More
+* [ ] List anything else that you added to improve the site's functionality!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Video Walkthrough
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here's a walkthrough of implemented user stories:
 
-### Code Splitting
+<img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ppZHV5OGVsMHZva2swNnl3ZHhkY3R0ZTFjZGpuZzc4ejEzYTJlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BbV5qKJBzRtbTMyRbR/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
-### Analyzing the Bundle Size
+## Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Describe any challenges encountered while building the app.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Copyright [yyyy] [name of copyright owner]
 
-### Advanced Configuration
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+        http://www.apache.org/licenses/LICENSE-2.0
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
